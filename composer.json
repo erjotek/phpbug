@@ -1,0 +1,12 @@
+{
+  "name": "anthill/phpbug",
+  "require": {
+    "php": ">=7.4",
+    "ext-ssh2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Anthill\\": "src/"
+    }
+  }
+}
